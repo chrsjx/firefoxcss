@@ -1,3 +1,18 @@
+/* Changes the colors of buttons and links (mostly on popup menus) */
+:root {
+    --button-bgcolor:#1f1f1f !important;
+    --button-hover-bgcolor: #2c2c2c !important;
+    --button-active-bgcolor: #2c2c2c !important;
+    --button-primary-bgcolor: #ffa18a !important;
+    --button-primary-hover-bgcolor: #d9d6d1 !important;
+    --button-primary-active-bgcolor: #d9d6d1 !important;
+    --input-border-color: #1f1f1f !important;
+    --input-bgcolor: #1f1f1f !important;
+    --panel-separator-color: transparent !important;
+    --lwt-brighttext-url-color: #ffa18a !important;
+    --in-content-page-background: #2c2c2c !important;
+}
+
 /* Stop that white flash from happening (it doesn't work sometimes)*/
 body,
 html,
@@ -131,7 +146,7 @@ toolbar #tabs-newtab-button:not([disabled="true"]):-moz-any([open], [checked], :
 
 toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active):hover>.toolbarbutton-icon {
     opacity: 1;
-    background-color: #00358080 !important;
+    background-color: transparent !important;
 }
 
 /* Show close button (tabs) on hover */
@@ -231,6 +246,11 @@ panel, menupopup {
 #downloadsPanel-blockedSubview, #downloadsPanel-mainView {
     padding: 5px !important;
     --arrowpanel-background: #2c2c2c;
+}
+
+/* Popup Menu (localization) */
+:is(menupopup, panel)[type="arrow"] {
+    --panel-background: #2c2c2c !important;
 }
 
 /* Smaller right click menu */
