@@ -15,7 +15,7 @@ Improve the color change in audio playing tabs:
 + Search for `browser.tabs.delayHidingAudioPlayingIconMS` and change the value to something like `50`
 
 ## Preview
-![firefox](https://github.com/chrsjx/firefoxcss/assets/132371313/1f5742d0-208c-4bca-8a3b-741a1b5a18d7)
+![firefox](https://github.com/chrsjx/firefoxcss/assets/132371313/55a76d9a-93cd-40fc-8e0c-df458550de21)
 
 ## Credits
 * [r/FirefoxCss](https://www.reddit.com/r/FirefoxCSS/) - where i found mostly of the styling rules.
