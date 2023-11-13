@@ -65,6 +65,7 @@ html,
 }
 
 .urlbarView .urlbarView-body-inner {
+    background-color: #1b1b1b !important;
     border-top: none !important;
     margin: revert !important;
     width: revert !important;
@@ -90,16 +91,11 @@ html,
 }
 
 /* Active Tab */
-.tab-background[selected="true"], #urlbar-container, #urlbar, #nav-bar-overflow-button, #PanelUI-button {
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab[selected] .tab-content {
     background-color: #1b1b1b !important;
     background-image: none !important;
-    border: none !important;
-    color: #e0e0e0 !important;
-}
-
-/* Line on top of the active tab */
-.tab-background[selected="true"] {  
     border-top: 2px solid #003580 !important;
+    color: #e0e0e0 !important;
 }
 
 /* Tabs Size */
