@@ -9,7 +9,7 @@ My updated custom userChrome.css for Firefox 143.0.1 to make it dark and minimal
 5. Place the `userChrome.css` file inside.
 6. Restart Firefox.
 
-## Fonts
+### Fonts
 + Download and Install [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 
 ### Optional
